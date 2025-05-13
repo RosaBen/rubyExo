@@ -1,11 +1,3 @@
-# print "Quelle est ton année de naissance? : "
-# # .to_i transforme en nb entier
-# year = gets.chomp.to_i
-# yearRef = 2017
-# age = yearRef - year
-# puts age
-
-
 print "Quel est ton année de naissance? "
 birthYear = gets.chomp.to_i
 currentYear = Time.now.year

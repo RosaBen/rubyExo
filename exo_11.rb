@@ -1,10 +1,3 @@
-# print "donne un nombre entre 1 et 5 : "
-# nb_user = gets.chomp.to_i
-# nb_user.times do
-#   puts "Salut, ça farte ?"
-# end
-
-
 print "Quel est ton age? "
 age = gets.chomp.to_i
 currentYear = Time.now.year

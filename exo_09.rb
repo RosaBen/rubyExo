@@ -1,9 +1,3 @@
-# print "Quel est ton prénom : "
-# firstName = gets.chomp
-# print "Quel est ton nom de famille : "
-# lastName = gets.chomp
-# puts "Bonjour, " + firstName + " " + lastName + "!"
-
 print "Quel est ton année de naissance? "
 birthYear = gets.chomp.to_i
 currentYear = Time.now.year

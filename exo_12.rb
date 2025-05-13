@@ -1,17 +1,3 @@
-# print "Donne un nombre entre 0 et 10: "
-# user_nb = gets.chomp.to_i
-# # pour compter à partir de l'index 0
-# user_nb.times do |i|
-#   puts i + 1
-# end
-
-
-# print "donne un nombre entre 1 et 5 : "
-# nb_user = gets.chomp.to_i
-# nb_user.times do
-#   puts "Salut, ça farte ?"
-# end
-
 print "Quel est ton age? "
 age = gets.chomp.to_i
 currentYear = Time.now.year
