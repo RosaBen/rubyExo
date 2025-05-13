@@ -1,6 +1,7 @@
 print "Donnez un nombre entre 1 et 25 :"
 user_nb = gets.chomp.to_i
 
+
 user_nb.times do |i|
   # nb of spaces on the left from top to bottom 
   # top line = 4 spaces + 1# => if user_nb=5 , i =0 => spaces = 5-0-1 =4
